@@ -262,7 +262,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.usb.rmnet.inst.name=rmnet \
     vendor.usb.rndis.func.name=gsi \
     vendor.usb.use_ffs_mtp=1 \
-    vendor.usb.use_gadget_hal=0
+    vendor.usb.use_gadget_hal=1
 
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
