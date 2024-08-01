@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     libcamera2ndk_vendor \
     libgui_vendor \
+    liblz4.vendor \
     libstdc++_vendor \
     libutilscallstack.vendor \    
     vendor.qti.hardware.camera.device@1.0.vendor \
