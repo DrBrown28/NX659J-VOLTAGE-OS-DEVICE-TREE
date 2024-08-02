@@ -213,6 +213,10 @@ on post-fs-data
 	chmod 0664 /sys/class/light/light/ircode
 	chmod 0664 /sys/class/light/light/lux
 	chmod 0664 /sys/class/light/light/transmittance
+	
+	# Hardware revision
+    on property:ro.boot.hwlevel=*
+    setprop ro.boot.hardware.revision ${ro.boot.hwc}_${ro.boot.hwlevel}_${ro.boot.hwversion}
 
 	# NFC
 	chmod 777 /dev/sec-nfc
