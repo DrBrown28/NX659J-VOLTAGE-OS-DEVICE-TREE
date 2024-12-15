@@ -326,6 +326,7 @@ vendor/lib/libcneoplookup.so
 vendor/lib/libcneqmiutils.so
 vendor/lib/libwms.so
 vendor/lib/libwqe.so
+vendor/lib/libwvaidl.so
 vendor/lib/libxml.so
 vendor/lib/vendor.qti.data.factory@2.0.so
 vendor/lib/vendor.qti.data.factory@2.1.so
@@ -1756,10 +1757,9 @@ vendor/firmware/awinic_haptic_params.bin
 vendor/lib/hw/awinic.haptic.effect.so
 
 # Widevine
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib64/libwvhidl.so
+vendor/bin/hw/android.hardware.drm-service.widevine
+vendor/etc/init/android.hardware.drm-service.widevine.rc
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
 
 # WiFi
 vendor/bin/cnss-daemon
