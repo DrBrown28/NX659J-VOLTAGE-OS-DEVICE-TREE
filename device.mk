@@ -142,7 +142,8 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-V1-ndk.vendor \
-    android.hardware.drm-service.clearkey
+    android.hardware.drm-service.clearkey \
+    libhidlmemory.vendor
 
 # fastbootd
 PRODUCT_PACKAGES += \

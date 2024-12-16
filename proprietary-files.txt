@@ -1756,6 +1756,15 @@ vendor/firmware/aw8695_rtp.bin
 vendor/firmware/awinic_haptic_params.bin
 vendor/lib/hw/awinic.haptic.effect.so
 
+# DRM
+vendor/bin/cpfirmware
+vendor/lib/liboemcrypto.so
+vendor/lib/librmp.so
+vendor/lib/libtrustedapploader.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/librmp.so
+vendor/lib64/libwvhidl.so
+
 # Widevine
 vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/etc/init/android.hardware.drm-service.widevine.rc
