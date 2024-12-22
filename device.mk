@@ -90,7 +90,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5:64 \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    android.hardware.camera.provider@2.6:64 
+    android.hardware.camera.provider@2.6:64
    
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
@@ -143,6 +143,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-V1-ndk.vendor \
     android.hardware.drm-service.clearkey \
+    android.hardware.drm@1.0 \
+    android.hardware.drm@1.0.vendor \
+    android.hardware.drm@1.1 \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2 \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.drm@1.3 \
+    android.hardware.drm@1.3.vendor \
+    android.hardware.drm@1.4.vendor \
     libhidlmemory.vendor
 
 # fastbootd
@@ -203,7 +212,9 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.nx659j
+    android.hardware.lights-service.nx659j \
+    android.hardware.light@2.0 \
+    android.hardware.light@2.0.vendor
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -226,7 +237,8 @@ PRODUCT_COPY_FILES += \
 
 # Net
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    netutils-wrapper-1.0
 
 # Neural networks
 PRODUCT_PACKAGES += \
@@ -402,7 +414,10 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal
+    android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors@1.0-impl:64 \
+    android.hardware.sensors@1.0-service \
+    libsensorndkbridge
 
 # Telephony
 PRODUCT_PACKAGES += \
