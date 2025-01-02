@@ -90,6 +90,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.usb_offload_sidetone_volume.enable=false \
     vendor.audio.feature.vbat.enable=true \
     vendor.audio.feature.wsa.enable=false \
+    
+# stereo speakers: orientation changes swap L/R channels
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.audio.monitorRotation=true    
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
