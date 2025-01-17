@@ -198,7 +198,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.nx659j
+    android.hardware.lights-service.lineage
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
