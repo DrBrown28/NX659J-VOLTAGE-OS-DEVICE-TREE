@@ -433,6 +433,9 @@ PRODUCT_PACKAGES += \
 # Trustzone
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.systemhelper@1.0.vendor
+    
+# Updater
+AB_OTA_UPDATER := false
 
 # USB
 PRODUCT_PACKAGES += \
