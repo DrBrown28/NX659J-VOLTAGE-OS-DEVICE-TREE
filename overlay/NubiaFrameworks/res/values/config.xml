@@ -500,4 +500,9 @@
 
     <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
     <integer name="config_defaultRefreshRateInZone">144</integer>
+    
+    <!-- Whether the device enable the standalone (SA) mode of 5G NR.-->
+    <bool name="config_telephony5gStandalone">true</bool>
+    <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
+    <bool name="config_telephony5gNonStandalone">true</bool>   
 </resources>
