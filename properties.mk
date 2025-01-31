@@ -209,6 +209,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.data.mode=concurrent \
     ro.vendor.use_data_netmgrd=true \
 
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.media.omx=0
+
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.factory.nfc=true
