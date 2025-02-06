@@ -23,6 +23,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Inherit proprietary libraries
 $(call inherit-product, vendor/nubia/nx659j/nx659j-vendor.mk)
 
+#Don't use BSG framework for gpt-utils
+$(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
+
 # Inherit display makefiles
 $(call inherit-product, hardware/qcom-caf/sm8250/display/config/display-board.mk)
 
