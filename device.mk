@@ -420,6 +420,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.nx659j
 
+# Updater
+AB_OTA_UPDATER := false
+
 # Trustzone
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.systemhelper@1.0.vendor
