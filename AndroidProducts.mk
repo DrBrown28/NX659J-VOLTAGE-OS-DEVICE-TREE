@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/voltage_nx659j.mk
-    
-COMMON_LUNCH_CHOICES := \
-    voltage_nx659j-eng \
-    voltage_nx659j-user \
-    voltage_nx659j-userdebug
