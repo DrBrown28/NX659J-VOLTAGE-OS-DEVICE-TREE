@@ -211,6 +211,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.c2inputsurface=-1 \
     vendor.media.omx=0
 
 # NFC
