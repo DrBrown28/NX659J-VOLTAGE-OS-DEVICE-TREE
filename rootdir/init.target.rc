@@ -64,8 +64,6 @@ on post-fs
     write /dev/ipa 1
 
 on late-fs
-    wait_for_prop hwservicemanager.ready true
-    exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --late
 
 on post-fs-data
@@ -111,6 +109,7 @@ on property:vendor.usb.controller=*
 on charger
     start vendor.power_off_alarm
     setprop sys.usb.controller a600000.dwc3
+    setprop sys.usb.configfs 1
 
 service vendor.lowi /vendor/bin/sscrpcd
    class core
